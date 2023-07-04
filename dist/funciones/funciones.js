@@ -13,7 +13,6 @@
     };
     const name1 = fullName("toy", "stark");
 })();
-//args-opcional=============================================
 (() => {
     const hero = "flash";
     function name() {
@@ -29,7 +28,6 @@
     const name1 = fullName("tony");
     console.log(name1);
 })();
-//parametros por defecto===================================
 (() => {
     const fullName = (fristName, lastName, upper = false) => {
         if (upper) {
@@ -42,7 +40,6 @@
     const name1 = fullName("tony");
     console.log(name1);
 })();
-//restArguments ============================================
 (() => {
     const fullName = (firstName, ...restArgs) => {
         return `${firstName} ${restArgs.join(" ")}`;
@@ -50,7 +47,6 @@
     const superMan = fullName("clark");
     console.log(superMan);
 })();
-//TIPO DE FUNCIONES
 (() => {
     const addNumber = (a, b) => a + b;
     const greet = (name) => `Hola ${name}`;
@@ -63,3 +59,4 @@
     myFunction = saveTheWord;
     console.log(myFunction());
 })();
+//# sourceMappingURL=funciones.js.map

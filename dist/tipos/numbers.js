@@ -10,3 +10,4 @@
         console.log("los derrotamos");
     }
 })();
+//# sourceMappingURL=numbers.js.map

@@ -25,3 +25,4 @@
     let myCustomVariable = "cristian";
     console.log(myCustomVariable);
 })();
+//# sourceMappingURL=objetos.js.map

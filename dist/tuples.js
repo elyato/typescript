@@ -5,3 +5,4 @@
     hero[1] = 50;
     hero[2] = true;
 })();
+//# sourceMappingURL=tuples.js.map
