@@ -56,10 +56,27 @@
 
 (() => {
   const fullName = (firstName: string, ...restArgs: string[]): string => {
-    return `${firstName}`;
+    return `${firstName} ${restArgs.join(" ")}`;
   };
 
-  const superMan = fullName("clark", "joseph", "kent");
+  const superMan = fullName("clark");
+  console.log(superMan);
 })();
 
+//TIPO DE FUNCIONES
 
+(() => {
+  const addNumber = (a: number, b: number) => a + b;
+  const greet = (name: string) => `Hola ${name}`;
+  const saveTheWord = () => `salve el planeta siu`;
+
+  let myFunction;
+
+  myFunction = addNumber;
+  console.log(myFunction(7, 5));
+
+  myFunction = greet;
+  console.log(myFunction("cristian"));
+  myFunction = saveTheWord;
+  console.log(myFunction());
+})();
