@@ -1,0 +1,3 @@
+(() => {
+  const nada: undefined = undefined;
+})();
