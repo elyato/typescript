@@ -14,7 +14,7 @@
     };
     const elVengador = [iroman, cap, hulk];
     for (const xd of elVengador) {
-        console.log(xd);
+        console.log(xd.name);
     }
 };
 //# sourceMappingURL=forof.js.map
