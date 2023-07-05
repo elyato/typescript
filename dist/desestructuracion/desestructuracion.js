@@ -7,6 +7,10 @@
         activo: true,
         poder: 1500,
     };
-    const { poder, vision } = avengers;
+    const printAvenger = ({ iroman }) => {
+        console.log(iroman);
+    };
+    const avengersArray = ["cap america", "iroman", "hulk"];
+    const [, iroman] = avengersArray;
 })();
 //# sourceMappingURL=desestructuracion.js.map
